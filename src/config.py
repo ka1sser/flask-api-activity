@@ -50,3 +50,19 @@ def import_log_path(config):
     log_path = config["directories"]["log_path"]
 
     return log_path
+
+
+def import_file_path(config):
+    """
+    This function will import the "file_path" in "directories" in the config file
+
+    Args:
+        config (dict): Config file used for the parameters
+
+    Returns:
+        file_path (str): File path for the files to be read
+    """
+
+    file_path = config["directories"]["file_path"]
+
+    return file_path
